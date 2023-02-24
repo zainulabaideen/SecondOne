@@ -45,23 +45,23 @@ import { MdOutlinePermContactCalendar } from "react-icons/md";
 export const content = {
   nav: [
     {
-      link: "#home",
+      li: "#home",
       icon: TbSmartHome,
     },
     {
-      link: "#skills",
+      li: "#skills",
       icon: BiUser,
     },
     {
-      link: "#services",
+      li: "#services",
       icon: RiServiceLine,
     },
     {
-      link: "#projects",
+      li: "#projects",
       icon: RiProjectorLine,
     },
     {
-      link: "#contact",
+      li: "#contact",
       icon: MdOutlinePermContactCalendar,
     },
   ],
@@ -91,11 +91,11 @@ export const content = {
         name: "HTML",
         para: "I am expert in",
         logo: html,
-        li:{
-          1:"Hyper Text MarkUp Language",
-          2:'I am expert in HTML.',
-          3:'I know HTML very well. ',
-        }, 
+        
+          
+          li1:"Hyper Text MarkUp Language",
+          li2:'I am expert in HTML.',
+         li3:'I know HTML very well. ',         
       },
       
       
@@ -104,22 +104,22 @@ export const content = {
         name: "CSS",
         para: "I have a very good knowledge",
         logo: css,
-        li:{
-          1:'CaseCading Styling Sheet',
-          2:'I have a good Knowledge.',
-          2:'I am energetic to learn deep css .',
-        },
+        
+          li1:'CaseCading Styling Sheet',
+          li2:'I have a good Knowledge.',
+          li3:'I am energetic to learn deep css .',
+        
       },
       {
         id:3,
         name: "TAILWIND CSS",
         para: "I am expert in",
         logo: tailwind,
-        li:{
-          1:'I am expert in Tailwind Css.',
-          2:'I have good wxperience in Tailwind Css.',
-          3:'I love Tailwind Css.'
-        },
+        
+         li1:'I am expert in Tailwind Css.',
+         li2:'I have good wxperience in Tailwind Css.',
+         li3:'I love Tailwind Css.' ,
+     
       },
 
       {
@@ -127,21 +127,21 @@ export const content = {
         name: "BOOTSTRAP",
         para: "I know bootstrap very",
         logo: bootsrap,
-        li:{
-          1:'I know bootstrap very well.',
-          2:'I have used Bootstrap on much places.',
-          
-        },
+        
+          li1:'I know bootstrap very well.',
+          li2:'I have used Bootstrap on much places.' ,
+      
       },
       {
         id:5,
         name: "JAVA SCRIPT",
         para: "I have a good practice",
         logo: js,
-        li:{
-          1:"I have a good practice in JS.",
-          2:"I am energetic to learn as much as I can deep in JavaScript "
-        },
+        
+          li1:"I have a good practice in JS.",
+          li2:"I am energetic to learn as much as I can deep in JavaScript ",
+          li3:" ",
+        
         
       },
             {
@@ -149,55 +149,60 @@ export const content = {
         name: "REACT JS",
         para: "I have a very good practice",
         logo: reactjs,
-        li:{
-          1:'I have a good practice in ReactJs.',
-          2:'I am learning deep in ReactJs.',
-          3:"I am energetic to learn as much as I can deep in ReactJS "
+        
+          li1:'I have a good practice in ReactJs.',
+          li2:'I am learning deep in ReactJs.',
+          li3:"I am energetic to learn as much as I can deep in ReactJS ",
 
-        }
+
+        
       },
       {
         id:7,
       name: "NODE JS",
       para: "I have an intermediate",
       logo: node,
-      li:{
-        1:'I have an intermediate knowledge about Node js.',
       
-        2:"I am energetic to learn as much as I can deep in ReactJS "
+        li1:'I have an intermediate knowledge about Node js.',
+      
+        li2:"I am energetic to learn as much as I can deep in ReactJS ",
+        li3:" "
 
-      }
+      
     },
       {
         id:8,
         name: "MONGO DB",
         para: "I have an intermediate",
         logo: mongo,
-        li:{
-          1:'I have an intermediate knowledge about Node js.',
         
-          2:"I am energetic to learn as much as I can deep in ReactJS "
+          li1:'I have an intermediate knowledge about Node js.',
+        
+          li2:"I am energetic to learn as much as I can deep in ReactJS ",
+          li3:""
   
-        }
+        
       },
       {
         id:9,
         name: "EXPRESS",
         para: "I know how to connect",
         logo: express,
-        li:{
-          1:"I know how to connect express with nodejs very well."
-        }
+        
+          li1:"I know how to connect express with nodejs very well.",
+          li2:"",
+          li3:""
+        
       },
       {
         id:10,
         name: "FUNDAMENTALS OF C",
         para: "I know very well",
         logo: c,
-        li:{
-          1:'I have the good knowledge of Basics of C language.',
-          2:"I am in the process of learning advance C language."
-        }
+        li1:'I have the good knowledge of Basics of C language.',
+          li2:"I am in the process of learning advance C language.",
+          li3:" "
+        
       }
     ],
     icon: MdArrowForward,
@@ -288,17 +293,17 @@ export const content = {
       {
         text: "Linkedin",
         icon: BsLinkedin,
-        link: "https://www.linkedin.com/in/zainulabaideen",
+        li: "https://www.liedin.com/in/zainulabaideen",
       },
       {
         text: "+92 304 5018000",
         icon: MdCall,
-        link: "https://wa.link/qddklj",
+        li: "https://wa.li/qddklj",
       },
       {
         text: "Instagram",
         icon: BsInstagram,
-        link: "https://www.instagram.com/m_zain._.05/",
+        li: "https://www.instagram.com/m_zain._.05/",
       },
     ],
   },

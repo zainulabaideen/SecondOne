@@ -18,6 +18,15 @@ const customStyles = {
     padding:"2rem",
   }
 };
+
+// function html() {
+//   if(html.clicked){
+//     return (
+      
+//     )
+//   }
+// }
+
 Modal.setAppElement('#root');
 
 const Skills = () => {
@@ -75,12 +84,14 @@ const Skills = () => {
         <h6>{selectSkill?.name}</h6>
       </div>
 <br />
-<ul className='list-decimal px-4 font-Poppins sm:text-sm text-xs !leading-7'>
- {
-    
+<ul className=' px-4 font-Poppins sm:text-sm text-xs !leading-7'>
+ 
+  <li>  {selectSkill?.li1} </li>
+  <li>  {selectSkill?.li2} </li>
+  <li>  {selectSkill?.li3} </li>
+     
       
-          // skills.skills_content.li
- }
+ 
  
 </ul>
 <br />
